@@ -1,0 +1,10 @@
+name = "googleadmob4"
+compatibility_date = "2026-07-03"
+workers_dev = false
+
+[assets]
+directory = "./public"
+
+routes = [
+  { pattern = "www.benri-factory.jp/*", zone_name = "benri-factory.jp" }
+]
