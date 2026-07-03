@@ -1,3 +1,8 @@
-name = "googleadmob4"
+name = "googleadmob5"
 main = "src/index.js"
 compatibility_date = "2026-07-03"
+workers_dev = false
+
+routes = [
+  { pattern = "www.benri-factory.jp/app-ads.txt*", zone_name = "benri-factory.jp" }
+]
